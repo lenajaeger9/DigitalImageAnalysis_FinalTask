@@ -56,7 +56,7 @@ The results showed a clear decline in glacier area.
 19915 pixels turned from glacier to unclassified, which is an area of 17.9235 km². 3815 pixels (3.4335 km²) showed the contrary development, being "unclassified" in 2000 and classified as "glacier" in 2019.
 
 <figure>
-  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D_glacier_outline2.png" alt="3D glacier outlines" width="500">
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D_glacier_outline2.png" alt="3D glacier outlines" width="700">
 </figure>
 
 For a better illustration, the figure above shows the outlines in a 3D visualization, the dark blue outline being from 2000, while the cyan colored lines represent 2019. 
