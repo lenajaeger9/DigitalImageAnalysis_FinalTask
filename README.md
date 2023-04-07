@@ -14,7 +14,7 @@ The analysis was done using SAGA GIS. The used data was acquired from USGS Earth
 ***
 ## Workflow
 <figure>
-  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/workflow.png" alt="Workflow" width="700">
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/workflow.png" alt="Workflow" width="900">
   <figcaption>Workflow</figcaption>
 </figure>
 
