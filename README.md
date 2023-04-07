@@ -46,7 +46,7 @@ For the water mask a threshold of 0.3 was chosen, both for glacier and water are
 The used methodology was efficient, delineating the glacier and glaier area, as it can be seen in the figures below. 
 Shadow area however was a major challenge and is the biggest source of error. 
 
-| <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2000.png" alt="Image 1" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_outline%202019.png" alt="Image 2" width="400"/> |
+| <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2000.png" alt="Image 1" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2019.png" alt="Image 2" width="400"/> |
 | -- | --- |
 | Image 1 | Image 2 |
 
