@@ -1,7 +1,7 @@
-# Analysis of glaciers & glacial lakes in SAGA GIS
+# Analysis of glaciers and glacial lakes in SAGA GIS
 ***
 ## Introduction
-High Mountain Asia contains, apart from the polar regions, the largest glacierized areas and is therefore often called the "Third Pole" (Rowan et sl. 2018, Zhang et al. 2021).
+High Mountain Asia contains, apart from the polar regions, the largest glacierized areas and is therefore often called the "Third Pole" (Rowan et al. 2018, Zhang et al. 2021).
 
 Due to the size of the area and spatial heterogeneity within, different trends and patterns were observed, ranging from massive glacier decline in Nepal to an increase in glacier area in the Karakoram (coining the term "Karakoram Anomaly") (Nie et al. 2021, Bolch et al. 2012).
 While some areas were and are studied extensively, other regions were less in the focus of scientific work, leaving broad knowledge gaps that need to be investigated. 
@@ -43,6 +43,14 @@ For the water mask a threshold of 0.3 was chosen, both for glacier and water are
 
 *** 
 ## Results
+The used methodology was efficient, delineating the glacier and glaier area, as it can be seen in the figures below. 
+Shadow area however was a major challenge and is the biggest source of error. 
+
+| <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2000.png" alt="Image 1" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_outline%202019.png" alt="Image 2" width="400"/> |
+| -- | --- |
+| Image 1 | Image 2 |
+
+
 -->  Confusion matrix 
 --> threshold 0.3 ()
 
