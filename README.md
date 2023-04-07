@@ -15,7 +15,6 @@ The analysis was done using SAGA GIS. The used data was acquired from USGS Earth
 ## Workflow
 <figure>
   <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/workflow.png" alt="Workflow" width="900">
-  <figcaption>Workflow</figcaption>
 </figure>
 
 Figure 1 shows the workflow of the conducted analysis.
@@ -55,6 +54,6 @@ For the water mask a threshold of 0.3 was chosen, both for glacier and water are
 ## Literature
 * Bolch, T.; Kulkarni, A.; Kääb, A.; Huggel, C.; Paul, F.; Cogley, J.G.; Frey, H.; Kargel, J.S.; Fujita, K.; Scheel, M.; Bajracharya, S.; Stoffel, M. (2012): The State and Fate of Himalayan Glaciers. Science, 336(6079), pp. 310-314.
 * Li, J.Y.; Ding, J.Y.; Shangguan, D.H.; Wang, R.J. (2019): Regional differences in global glacier retreat from 1980 to 2015. Advances in Climate Change Research, 10(4), pp. 203-213. DOI: https://doi.org/10.1016/j.accre.2020.03.003.
-* Verbessern:     Nie, Y.; Pritchard, H.D.; Liu, Q.; Hennig, T.; Wang, W.; Wang, X.; Liu, S.; Nepal, S.; Samyn, D.; Hewitt, K.; Chen, X. (2021): Glacial change and hydrological implications in the Himalaya and Karakoram. Nature Reviews Earth & Environment DOI: https://doi.org/10.1038/s43017-020-00124-w.
+* Nie, Y.; Pritchard, H.D.; Liu, Q.; Hennig, T.; Wang, W.; Wang, X.; Liu, S.; Nepal, S.; Samyn, D.; Hewitt, K.; Chen, X. (2021): Glacial change and hydrological implications in the Himalaya and Karakoram. Nature Reviews Earth & Environment, 2(2), pp. 91-106. DOI: https://doi.org/10.1038/s43017-020-00124-w.
 * Rowan, A.V.; Quincey, D.J.; Gibson, M.J.; Glasser, N.F.; Westoby, M.J.; Irvine-Fynn, T.D.L.; Porter, P.R.; Hambrey, M.J. (2018): The sustainability of water resources in High Mountain Asia in the context of recent and future glacier change. Geological Society, Special Publications, 462(1), London, pp. 189-204.
 * Zheng, G.; Keith Allen, S.; Bao, A.; Ballesteros- Cánovas, J.A.; Huss, M.; Zhang, G.; Li, J.; Yuan, Y.; Jiang, L.; Yu, T.; Chen, W.; Stoffel, M. (2021): Increasing risk of glacial lake outburst floods from future Third Pole deglaciation. Nature Climate Change, 11(5), pp. 411-417. 
