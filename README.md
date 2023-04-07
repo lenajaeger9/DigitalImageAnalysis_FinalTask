@@ -7,7 +7,8 @@ Due to the size of the area and spatial heterogeneity within, different trends a
 While some areas were and are studied extensively, other regions were less in the focus of scientific work, leaving broad knowledge gaps that need to be investigated. 
 
 This study aims to analyze the behavior of glaciers in the Ladakh Range (India) and set it also in relation to the evolution and development of glacial lakes. 
-A change detection was conducted using two Landsat scenes, to compare glacier and glacial lake area from 2000 and 2019. 
+A change detection was conducted using two Landsat scenes, to compare glacier and glacial lake area from 2000 (17th September) and 2019 (10th September). 
+Both scenes are from September to have a minimum of snow cover and to ensure comparability. 
 
 The analysis was done using SAGA GIS. The used data was acquired from USGS Earth Explorer (https://earthexplorer.usgs.gov/) and OpenTopography (https://opentopography.org).
 
@@ -43,13 +44,24 @@ For the water mask a threshold of 0.3 was chosen, both for glacier and water are
 
 *** 
 ## Results
-The used methodology was efficient, delineating the glacier and glaier area, as it can be seen in the figures below. 
-Shadow area however was a major challenge and is the biggest source of error. 
+The used methodology was efficient, delineating the glacier and glacial lake area, as it can be seen in the figures below. 
+Shadowed areas however were a major challenge and is the biggest source of error. 
 
 | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2000.png" alt="Glacier mask 2000" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2019.png" alt="Glacier mask 2019" width="400"/> |
 | -- | --- |
 | Image 1 | Image 2 |
 
+The results showed a clear decline in glacier area. Looking at the confusion matrix, 16337 pixels turned from "glacier" to "unclassified", 
+which means that 14.73 km² of glacier area (Landsat pixel size is 30m) deglaciated in the time span of 19 years. 
+
+| <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/ConfusionMatrix.png" alt="Glacier mask 2000" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/Confusion%20Matrix%202000%20-%202019.png" width="400"/> |
+| -- | --- |
+| Image 1 | Image 2 |
+
+
+<figure>
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/ConfusionMatrix.png" alt="Workflow" width="450">
+</figure>
 
 -->  Confusion matrix 
 --> threshold 0.3 ()
