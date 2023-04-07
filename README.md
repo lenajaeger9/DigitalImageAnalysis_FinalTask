@@ -14,7 +14,7 @@ The analysis was done using SAGA GIS. The used data was acquired from USGS Earth
 ***
 ## Workflow
 <figure>
-  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/workflow.png" alt="Workflow" width="500">
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/workflow.png" alt="Workflow" width="700">
   <figcaption>Workflow</figcaption>
 </figure>
 
@@ -24,7 +24,7 @@ Choosing the Upslope Area to be interactive, one can manually select a point in 
 Depending on this point the area can consequently encompass a larger watershed or on the contrary be a minor sub-watershed.
 Further, one important step is to always make sure to use the ```Coordinate Transformation``` tool to match the projections, otherwise it is a very common source of errors. 
 
-Different indices were assessed: --> table of indices (MNDWI (green - SWIR1) / (green + SWIR))
+Different indices were assessed:
 
 | Index                     |               Formula               |
 |---------------------------|:-----------------------------------:|
