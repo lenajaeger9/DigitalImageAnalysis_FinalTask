@@ -44,6 +44,7 @@ For the water mask a threshold of 0.3 was chosen, both for glacier and water are
 
 *** 
 ## Results
+
 The used methodology was efficient, delineating the glacier and glacial lake area, as it can be seen in the figures below. 
 Shadowed areas however were a major challenge and is the biggest source of error. 
 
@@ -51,7 +52,20 @@ Shadowed areas however were a major challenge and is the biggest source of error
 | -- | --- |
 | Image 1 | Image 2 |
 
-The results showed a clear decline in glacier area. Looking at the confusion matrix, 16337 pixels turned from "glacier" to "unclassified", 
+The results showed a clear decline in glacier area. 
+19915 pixels turned from glacier to unclassified, which is an area of 17.9235 km². 3815 pixels (3.4335 km²) showed the contrary development, being "unclassified" in 2000 and classified as "glacier" in 2019.
+
+<figure>
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D_glacier_outline2.png" alt="3D glacier outlines" width="500">
+</figure>
+
+For a better illustration, the figure above shows the outlines in a 3D visualization, the dark blue outline being from 2000, while the cyan colored lines represent 2019. 
+As background, an RGB composite of the 2019 scene was chosen, to assess the accuracy of the outlines. It can be seen, that the outlines of 2019 are quite well matching the snow/ ice covered areas. 
+Yet, in the valley there are two lakes that got classified as glaciers, showing that the mask should be revised. 
+At the same time, it is nicely shown that the glacier tongue on the three glaciers retreated over time, along with different snow or ice fields. 
+
+Zooming in to get a better look on single glaciers, reducing the extent of the AOI, the results remain clear. 
+Looking at the confusion matrix, 16337 pixels turned from "glacier" to "unclassified", 
 which means that 14.73 km² of glacier area (Landsat pixel size is 30m) deglaciated in the time span of 19 years. 
 This is also illustrated below, where the orange masked area represents the area that turned from "glacier" to "unclassified". 
 
@@ -63,13 +77,15 @@ This is also illustrated below, where the orange masked area represents the area
   <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/Confusion%20Matrix%202000%20-%202019.png" alt="Confusion Matrix" width="450">
 </figure>
 
+While the glacier areas clearly decreased, glacial lakes in turn increased in area, although not as strong as glaciers. 
+The number of pixels that turned from "Unclassified" to "water" is 166, so 0.1494 km². 
+This area seems small, especially compared to 14.73 km², however considering that it concerns (generally small) lakes, it is quite a big change. 
+To clarify this, the 3D image below shows the lake outlines. 
 
--->  Confusion matrix 
---> threshold 0.3 ()
 
 ***
 ## Discussion 
-
+If else for glaciers --> maybe need a frame (from 0.3 to 0.6 or something, so water areas are not included)
 
 ***
 ## Literature
