@@ -53,15 +53,16 @@ Shadowed areas however were a major challenge and is the biggest source of error
 
 The results showed a clear decline in glacier area. Looking at the confusion matrix, 16337 pixels turned from "glacier" to "unclassified", 
 which means that 14.73 km² of glacier area (Landsat pixel size is 30m) deglaciated in the time span of 19 years. 
-
-| <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/ConfusionMatrix.png" alt="Glacier mask 2000" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/Confusion%20Matrix%202000%20-%202019.png" width="400"/> |
-| -- | --- |
-| Image 1 | Image 2 |
-
+This is also illustrated below, where the orange masked area represents the area that turned from "glacier" to "unclassified". 
 
 <figure>
-  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/ConfusionMatrix.png" alt="Workflow" width="450">
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/ConfusionMatrix.png" alt="Confusion Matrix" width="500">
 </figure>
+
+<figure>
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/Confusion%20Matrix%202000%20-%202019.png" alt="Confusion Matrix" width="450">
+</figure>
+
 
 -->  Confusion matrix 
 --> threshold 0.3 ()
