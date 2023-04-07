@@ -82,10 +82,24 @@ The number of pixels that turned from "Unclassified" to "water" is 166, so 0.149
 This area seems small, especially compared to 14.73 km², however considering that it concerns (generally small) lakes, it is quite a big change. 
 To clarify this, the 3D image below shows the lake outlines. 
 
+<figure>
+  <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D_outlines.png" alt="3D glacial lake outlines" width="550">
+</figure>
+
+Here, it can be seen that beside the fact that existing lakes increased in size, also a new lake evolved. 
+The lake outlines of 2000 are colored green, the ones from 2019 are displayed in fuchsia. 
+
+In summary it can be said that for the study area, the area of glaciers overall clearly decreased, while the area (and number) of glacial lakes increased. 
+
 
 ***
 ## Discussion 
-If else for glaciers --> maybe need a frame (from 0.3 to 0.6 or something, so water areas are not included)
+As the current analysis only compared two Landsat scenes, the insights and findings are on the one hand very limited and do not allow to make hasty conclusions.
+On the other hand it is alarming and points out that more research is urgently needed. 
+
+Another aspect that was already mentioned in the results, is the misclassification of water areas as glaciers.
+One idea to improve this error would be to not only set a threshold, but rather a value range (from 0.3 to 0.6 or similar) when calculating the glacier mask based on the MNDWI.
+
 
 ***
 ## Literature
