@@ -40,7 +40,6 @@ For the water mask a threshold of 0.3 was chosen, both for glacier and water are
 
 ### Side Note
 * It was first tried to conduct a supervised classification, extracting training data from RGB and Idice visualizations, with four classes: glacier (ice/snow), water, other and mountain shadow.  However, also due to the lack of ground truth data, the result was not satisfactory, so water and glacier areas were extracted based on the NDWI and MNDWI.
-
 * During the analysis it happened, that two Landsat scenes were cropped to the AOI but had different grids. Since following steps like the confusion matrix can only be conducted for the same grids, it was necessary to adjust the two grids. In SAGA this can easily be done using the ````Resampling```` tool. 
 
 *** 
