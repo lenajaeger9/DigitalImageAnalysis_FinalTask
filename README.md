@@ -50,7 +50,7 @@ Shadowed areas however were a major challenge and is the biggest source of error
 
 | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2000.png" alt="Glacier mask 2000" width="400"/> | <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/glacier_mask2019.png" alt="Glacier mask 2019" width="400"/> |
 | -- | --- |
-| Image 1 | Image 2 |
+| Glacier mask 2000 | Glacier mask 2019 |
 
 The results showed a clear decline in glacier area. 
 19915 pixels turned from glacier to unclassified, which is an area of 17.9235 km². 3815 pixels (3.4335 km²) showed the contrary development, being "unclassified" in 2000 and classified as "glacier" in 2019.
