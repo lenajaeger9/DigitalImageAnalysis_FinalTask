@@ -45,7 +45,6 @@ For the masks a threshold of 0.3 was chosen, both for glacier and water area.
 *** 
 ## Results
 
-![name](https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D-demo.mp4)
 The used methodology was efficient, delineating the glacier and glacial lake area, as it can be seen in the figures below. 
 Shadowed areas however were a major challenge and is the biggest source of error. 
 
