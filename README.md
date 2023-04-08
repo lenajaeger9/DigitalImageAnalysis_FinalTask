@@ -18,13 +18,19 @@ The analysis was done using SAGA GIS. The used data was acquired from USGS Earth
   <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/workflow.png" alt="Workflow" width="900">
 </figure>
 
-Figure 1 shows the workflow of the conducted analysis.
+The workflow of the conducted analysis is shown in the flowchart above.
 Since glaciers and glacial lakes are part of the hydrological system, a watershed was delineated as study area. 
 Choosing the Upslope Area to be interactive, one can manually select a point in the map. 
 Depending on this point the area can consequently encompass a larger watershed or on the contrary be a minor sub-watershed.
-Further, one important step is to always make sure to use the ```Coordinate Transformation``` tool to match the projections, otherwise it is a very common source of errors. 
 
-Different indices were assessed:
+Next, two Landsat scenes were imported and cropped, which were chosen based on the percentage of cloud cover. 
+The two scenes were:
+* LE07_L1TP_147036_20000929_20200917_02_T1
+* LC08_L1TP_147036_20190910_20200826_02_T1
+
+Further, one important step is to always make sure to use the ```Coordinate Transformation``` tool to match the projections, otherwise it is a very common source of errors.
+
+Different indices were assessed and calculated for both scenes:
 
 | Index                     |               Formula               |
 |---------------------------|:-----------------------------------:|
@@ -37,6 +43,15 @@ Different indices were assessed:
 
 Out of the indices, the MNDWI delivered the best results to delineate glaciers, while McFeeters' NDWI could nicely differentiate water bodies.
 For the masks a threshold of 0.3 was chosen, both for glacier and water area.
+Based on the masks, a confusion matrix was produced, to get the number of pixels that changed or stayed the same.
+Lastly contour lines were created to get the outlines of glaciers and water bodies, which can be used for a more straightforward illustration.
+Using the ```Contour Lines from Grid``` tool, following settings were made:
+* Interpolation Scale: 2
+* Contour Interval: 0.7
+* Base Contour Value: 0
+* Maximum Contour Value: 3
+
+For visualization purposes, 3D images were produced, based on the SRTM dataset. 
 
 ### Side Note
 * It was first tried to conduct a supervised classification, extracting training data from RGB and Idice visualizations, with four classes: glacier (ice/snow), water, other and mountain shadow.  However, also due to the lack of ground truth data, the result was not satisfactory, so water and glacier areas were extracted based on the NDWI and MNDWI.
