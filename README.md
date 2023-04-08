@@ -102,6 +102,7 @@ On the other hand it is alarming and points out that more research is urgently n
 Another aspect that was already mentioned in the results, is the misclassification of water areas as glaciers.
 One idea to improve this error would be to not only set a threshold, but rather a value range (from 0.3 to 0.6 or similar) when calculating the glacier mask based on the MNDWI.
 Doing so, it should be first checked in which value range the water bodies lie and if they differentiate from glacier areas, to see wether it makes sense and is feasible. 
+
 The second source for misclassification were shadowed areas. 
 At this point ground truth data is necessary and should be integrated, since the topography of high mountain areas remain a challenge for remote sensing analyses.
 Another approach could be to classify shadowed areas separately and deduct it from the water masks. 
