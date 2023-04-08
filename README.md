@@ -36,7 +36,7 @@ Different indices were assessed:
 
 
 Out of the indices, the MNDWI delivered the best results to delineate glaciers, while McFeeters' NDWI could nicely differentiate water bodies.
-For the water mask a threshold of 0.3 was chosen, both for glacier and water area.
+For the masks a threshold of 0.3 was chosen, both for glacier and water area.
 
 ### Side Note
 * It was first tried to conduct a supervised classification, extracting training data from RGB and Idice visualizations, with four classes: glacier (ice/snow), water, other and mountain shadow.  However, also due to the lack of ground truth data, the result was not satisfactory, so water and glacier areas were extracted based on the NDWI and MNDWI.
@@ -91,15 +91,25 @@ The lake outlines of 2000 are colored green, the ones from 2019 are displayed in
 
 In summary it can be said that for the study area, the area of glaciers overall clearly decreased, while the area (and number) of glacial lakes increased. 
 
+[3D-demo.mp4](..%2FDigital%20Image%20Analysis%2Ffigures%2F3D-demo.mp4)
 
 ***
 ## Discussion 
 As the current analysis only compared two Landsat scenes, the insights and findings are on the one hand very limited and do not allow to make hasty conclusions.
-On the other hand it is alarming and points out that more research is urgently needed. 
+On the other hand it is alarming and points out that more research is urgently needed.
 
 Another aspect that was already mentioned in the results, is the misclassification of water areas as glaciers.
 One idea to improve this error would be to not only set a threshold, but rather a value range (from 0.3 to 0.6 or similar) when calculating the glacier mask based on the MNDWI.
+Doing so, it should be first checked in which value range the water bodies lie and if they differentiate from glacier areas, to see wether it makes sense and is feasible. 
 
+### Working with SAGA GIS
+Lastly, SAGA GIS is a free open source software, with valuable tools to do geographic analysis. Constant work is done to improve the software. 
+If the interface seems not easy to handle, with the ```Find and Run Tool```, one does not need to scroll through all the tabs to find the right tool for the analysis.
+The fast and easy way to display a 3D visualization is also an advantage.
+Nonetheless, the Print Layout is very plain and simplistic.
+Especially compared to QGIS, the possibilities of creating nice and maybe eye-catching maps are very limited with SAGA.
+Yet, as the main aim of an analysis like the present is to conduct a methodological sound analysis with meaningful results, this is rather a small issue. 
+It could be also considered switching to other software for visualization if needed. 
 
 ***
 ## Literature
