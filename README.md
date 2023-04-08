@@ -44,7 +44,7 @@ For the masks a threshold of 0.3 was chosen, both for glacier and water area.
 
 *** 
 ## Results
-
+![name](https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D-demo.mp4)
 The used methodology was efficient, delineating the glacier and glacial lake area, as it can be seen in the figures below. 
 Shadowed areas however were a major challenge and is the biggest source of error. 
 
@@ -89,9 +89,7 @@ To clarify this, the 3D image below shows the lake outlines.
 Here, it can be seen that beside the fact that existing lakes increased in size, also a new lake evolved. 
 The lake outlines of 2000 are colored green, the ones from 2019 are displayed in fuchsia. 
 
-In summary it can be said that for the study area, the area of glaciers overall clearly decreased, while the area (and number) of glacial lakes increased. 
-
-[3D-demo.mp4](..%2FDigital%20Image%20Analysis%2Ffigures%2F3D-demo.mp4)
+In summary it can be said that for the study area, the area of glaciers overall clearly decreased, while the area (and number) of glacial lakes increased.
 
 ***
 ## Discussion 
