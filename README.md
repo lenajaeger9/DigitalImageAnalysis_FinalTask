@@ -44,6 +44,7 @@ For the masks a threshold of 0.3 was chosen, both for glacier and water area.
 
 *** 
 ## Results
+
 ![name](https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D-demo.mp4)
 The used methodology was efficient, delineating the glacier and glacial lake area, as it can be seen in the figures below. 
 Shadowed areas however were a major challenge and is the biggest source of error. 
@@ -55,11 +56,14 @@ Shadowed areas however were a major challenge and is the biggest source of error
 The results showed a clear decline in glacier area. 
 19915 pixels turned from glacier to unclassified, which is an area of 17.9235 km². 3815 pixels (3.4335 km²) showed the contrary development, being "unclassified" in 2000 and classified as "glacier" in 2019.
 
+https://user-images.githubusercontent.com/116868780/230709225-8468ba71-7bee-4f55-b6c3-a959f96956b9.mp4
+
+
 <figure>
   <img src="https://github.com/lenajaeger9/DigitalImageAnalysis_FinalTask/blob/main/figures/3D_glacier_outline2.png" alt="3D glacier outlines" width="700">
 </figure>
 
-For a better illustration, the figure above shows the outlines in a 3D visualization, the dark blue outline being from 2000, while the cyan colored lines represent 2019. 
+For a better illustration, the figure and video above shows the outlines in a 3D visualization, the dark blue outline being from 2000, while the cyan colored lines represent 2019. 
 As background, an RGB composite of the 2019 scene was chosen, to assess the accuracy of the outlines. It can be seen, that the outlines of 2019 are quite well matching the snow/ ice covered areas. 
 Yet, in the valley there are two lakes that got classified as glaciers, showing that the mask should be revised. 
 At the same time, it is nicely shown that the glacier tongue on the three glaciers retreated over time, along with different snow or ice fields. 
