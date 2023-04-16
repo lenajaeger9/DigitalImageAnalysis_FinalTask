@@ -3,7 +3,7 @@
 ## Introduction
 High Mountain Asia contains, apart from the polar regions, the largest glacierized areas and is therefore often called the "Third Pole" (Rowan et al. 2018, Zhang et al. 2021).
 
-Due to the size of the area and spatial heterogeneity within, different trends and patterns were observed, ranging from massive glacier decline in Nepal to an increase in glacier area in the Karakoram (coining the term "Karakoram Anomaly") (Nie et al. 2021, Bolch et al. 2012).
+Due to the size of the area and spatial heterogeneity within, different trends and patterns were observed, ranging from massive glacier decline in Nepal to a stabilization or even increase in glacier area in the Karakoram (coining the term "Karakoram Anomaly") (Nie et al. 2021, Bolch et al. 2012).
 While some areas were and are studied extensively, other regions were less in the focus of scientific work, leaving broad knowledge gaps that need to be investigated. 
 
 This study aims to analyze the behavior of glaciers in the Ladakh Range (India) and set it also in relation to the evolution and development of glacial lakes. 
@@ -130,6 +130,14 @@ Nonetheless, the Print Layout is very plain and simplistic.
 Especially compared to QGIS, the possibilities of creating nice and maybe eye-catching maps are very limited with SAGA.
 Yet, as the main aim of an analysis like the present is to conduct a methodological sound analysis with meaningful results, this is rather a small issue. 
 It could be also considered switching to other software for visualization if needed. 
+
+***
+## Conclusion
+This project showed that in the time between 2000 and 2019, glaciated areas experienced a clear decline. 
+At the same time, glacial lakes increased in size and number. 
+The vicinity to the Karakoram Range, an area with mixed and not fully explained changes in glacier area, and the lack of scientific work in the region, more research is needed to further understand the development in the Ladakh Range.
+Conducting a change detection delivered valuable insights. 
+In the future, the use of more Landsat scenes or generally more data is highly recommended, as well as the integration of climate data to link observed changes with climatic factors. 
 
 ***
 ## Literature
